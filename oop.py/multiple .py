@@ -10,14 +10,14 @@ class child(Parent):
         self.age = age
 
     def show_age(self):
-        return self.age()
+        return self.age
 
 class Grandchild(child):
     def assign_gender(self,gender):
         self.gender = gender
 
     def show_gender(self):
-        return self.name
+        return self.gender
 
 
 g1 = Parent()
@@ -29,8 +29,12 @@ g1.assign_name("saikumar")
 g2.assign_age("25")
 g3.assign_gender("Male")
 
-g1.show_name()
-g2.show_age()
-g3.show_gender()
+name=g1.show_name()
+age=g2.show_age()
+gender=g3.show_gender()
+
+print(name)
+print(age)
+print(gender)
 
         

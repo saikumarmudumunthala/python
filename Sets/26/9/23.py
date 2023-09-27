@@ -8,6 +8,7 @@ names2 = {"404","123","654","996","gouse"}
 #batch_2021 = names1.union(names2)
 
 print(names1.difference(names2))
+print(names1.intersection(names2))
 # for i in names1,names2:
 #      print(i) 
 

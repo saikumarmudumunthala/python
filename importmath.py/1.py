@@ -41,3 +41,10 @@ x = 12
 y = 10
 z = 23
 print(min(x,y,z))
+
+
+num = 5.96
+print(pow(num,2))
+
+import math 
+print(math.sqrt(20))

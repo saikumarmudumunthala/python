@@ -13,5 +13,11 @@
 # Age = input("how old are u?: ")
 # print("i am: " +Age)
 
-Height = input("how tall are you? :")
-print("your are: "+(Height)+"cm tall")
+# Height = input("how tall are you? :")
+# print("your are: "+(Height)+"cm tall")
+
+name = input("what is your name?: ")
+print("hello:"+(name))
+
+age = input("what is your age")
+print("your"+(age)+"older")
